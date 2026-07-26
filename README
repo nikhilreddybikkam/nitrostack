@@ -1,0 +1,207 @@
+AI Recipe & Nutrition Assistant
+Intelligent Recipe Recommendation and Nutrition Analysis using NitroStack MCP
+--------------------------------------------------------------------------
+
+📖 Overview
+
+AI Recipe & Nutrition Assistant is an intelligent MCP (Model Context Protocol) application built using NitroStack that helps users discover recipes, analyze nutritional values, and make healthier food choices through natural language conversations.
+
+The application combines a recipe database with a nutrition dataset and exposes them as MCP tools so AI assistants can answer food-related questions intelligently.
+
+Instead of manually searching through recipes or nutrition tables, users simply ask questions like:
+
+"Show me high protein breakfast recipes."
+"How many calories are in boiled eggs?"
+"Find vegetarian recipes."
+"Show foods rich in fiber."
+
+The AI understands the request, invokes the appropriate MCP tools, retrieves structured information, and returns personalized responses.
+
+🚀 Project Highlights
+Built using NitroStack MCP Framework
+Natural Language Recipe Search
+Nutrition Information Lookup
+Category-based Food Search
+AI-powered Recipe Recommendations
+Fast CSV Dataset Processing
+Modular MCP Architecture
+TypeScript Backend
+React Widget Frontend
+Easily Extensible
+
+❗ Problem Statement
+
+Finding healthy recipes and understanding nutritional values often requires switching between multiple websites and nutrition databases.
+
+Users struggle to:
+
+Search recipes efficiently
+Compare nutritional values
+Find foods based on calories or nutrients
+Discover recipes matching dietary preferences
+Obtain structured nutrition data quickly
+
+Existing solutions are fragmented and lack conversational AI integration.
+
+💡 Solution
+
+The AI Recipe & Nutrition Assistant solves this by integrating recipe and nutrition datasets into a single AI-powered MCP application.
+
+The system:
+
+Understands natural language queries
+Searches recipe datasets
+Searches nutrition datasets
+Retrieves structured nutritional information
+Returns contextual recommendations
+Makes food discovery conversational
+
+🤖 Agent Workflow
+User Query
+      │
+      ▼
+NitroStack MCP Server
+      │
+      ▼
+AI Agent
+      │
+      ├─────────────┐
+      ▼             ▼
+Recipe Tools    Nutrition Tools
+      │             │
+      ▼             ▼
+Recipe Service  Nutrition Service
+      │             │
+      ▼             ▼
+ Recipe CSV     Nutrition CSV
+      │             │
+      └──────┬──────┘
+             ▼
+      Structured Response
+             ▼
+            User
+
+System Architecture
+
+                User
+                  │
+                  ▼
+         AI Conversation Layer
+                  │
+                  ▼
+        NitroStack MCP Server
+                  │
+      ┌───────────┴────────────┐
+      ▼                        ▼
+ Recipe Module          Nutrition Module
+      │                        │
+      ▼                        ▼
+ Recipe Tools          Nutrition Tools
+      │                        │
+      ▼                        ▼
+ Recipe Service       Nutrition Service
+      │                        │
+      ▼                        ▼
+ Recipe Dataset       Nutrition Dataset
+                  │
+                  ▼
+          AI Generated Response
+
+  ⭐ Core Features
+🍽 Recipe Management
+Recipe Search
+Ingredient Search
+Recipe Lookup
+Random Recipe Suggestion
+Top Rated Recipes
+Multi-Ingredient Search
+🥗 Nutrition Analysis
+Food Nutrition Lookup
+Calories Information
+Protein Information
+Fat Information
+Carbohydrates Information
+Fiber Information
+Saturated Fat Information
+Food Category Search
+🤖 AI Features
+Natural Language Understanding
+Intelligent Food Recommendations
+Personalized Responses
+Instant Nutrition Analysis
+Dataset Search
+Context-Aware Responses
+
+🛠 MCP Capabilities
+
+The project exposes intelligent tools through the Model Context Protocol (MCP).
+
+Capabilities
+Recipe Discovery
+Nutrition Retrieval
+Ingredient Search
+Food Category Search
+Healthy Food Suggestions
+Structured Dataset Access
+AI Tool Invocation
+
+🔧 MCP Tools
+Recipe Module
+Tool	Description
+search_recipe	Search recipes by name
+search_ingredient	Search recipes using one ingredient
+search_ingredients	Search recipes using multiple ingredients
+get_recipe	Retrieve a recipe by ID
+get_all_recipes	List all recipes
+random_recipe	Get a random recipe
+top_recipes	Retrieve top-rated recipes
+
+Nutrition Module
+Tool	Description
+nutrition_info	Retrieve nutritional information for a food
+search_food	Search food by keyword
+get_all_foods	Retrieve all nutrition records
+foods_by_category	Retrieve foods belonging to a category
+
+MCP Resources
+Recipe Dataset
+
+Contains:
+
+Recipe Name
+Ingredients
+Instructions
+Cuisine
+Preparation Time
+Cooking Time
+Servings
+Nutrition Dataset
+
+Contains:
+
+Food Name
+Measure
+Weight (Grams)
+Calories
+Protein
+Fat
+Saturated Fat
+Fiber
+Carbohydrates
+Food Category
+🧩 Technology Stack
+Backend
+NitroStack MCP Framework
+TypeScript
+Node.js
+Frontend
+React
+NitroStack Widgets
+Data Processing
+CSV Parser
+File System (FS)
+Path Module
+AI Layer
+MCP Tool Calling
+Natural Language Processing
+Context-aware Responses
