@@ -1,207 +1,105 @@
-AI Recipe & Nutrition Assistant
-Intelligent Recipe Recommendation and Nutrition Analysis using NitroStack MCP
---------------------------------------------------------------------------
+<svg width="1200" height="260" viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f2027"/>
+      <stop offset="50%" stop-color="#203a43"/>
+      <stop offset="100%" stop-color="#2c5364"/>
+    </linearGradient>
+    <linearGradient id="leafGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8BC34A"/>
+      <stop offset="100%" stop-color="#4CAF50"/>
+    </linearGradient>
+    <linearGradient id="bowlGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFB74D"/>
+      <stop offset="100%" stop-color="#FF9800"/>
+    </linearGradient>
+  </defs>
 
-📖 Overview
+  <rect width="1200" height="260" fill="url(#bg)"/>
 
-AI Recipe & Nutrition Assistant is an intelligent MCP (Model Context Protocol) application built using NitroStack that helps users discover recipes, analyze nutritional values, and make healthier food choices through natural language conversations.
+  <!-- decorative circuit dots (AI motif) -->
+  <g opacity="0.25" stroke="#7FDBFF" stroke-width="2">
+    <line x1="40" y1="40" x2="120" y2="40"/>
+    <line x1="120" y1="40" x2="120" y2="90"/>
+    <circle cx="40" cy="40" r="4" fill="#7FDBFF"/>
+    <circle cx="120" cy="90" r="4" fill="#7FDBFF"/>
+    <line x1="1060" y1="200" x2="1140" y2="200"/>
+    <line x1="1060" y1="200" x2="1060" y2="160"/>
+    <circle cx="1140" cy="200" r="4" fill="#7FDBFF"/>
+    <circle cx="1060" cy="160" r="4" fill="#7FDBFF"/>
+  </g>
 
-The application combines a recipe database with a nutrition dataset and exposes them as MCP tools so AI assistants can answer food-related questions intelligently.
+  <!-- bowl icon -->
+  <g transform="translate(90,90)">
+    <path d="M0,40 Q0,90 55,90 Q110,90 110,40 Z" fill="url(#bowlGrad)"/>
+    <ellipse cx="55" cy="40" rx="55" ry="14" fill="#FFE0B2"/>
+    <circle cx="35" cy="34" r="6" fill="url(#leafGrad)"/>
+    <circle cx="55" cy="30" r="7" fill="#EF5350"/>
+    <circle cx="75" cy="35" r="6" fill="url(#leafGrad)"/>
+  </g>
 
-Instead of manually searching through recipes or nutrition tables, users simply ask questions like:
+  <!-- leaf icon -->
+  <g transform="translate(1000,60)">
+    <path d="M0,60 C0,20 40,0 80,0 C80,40 60,70 20,70 C10,70 5,65 0,60 Z" fill="url(#leafGrad)"/>
+    <path d="M5,58 C30,40 55,20 78,3" stroke="#2E7D32" stroke-width="3" fill="none"/>
+  </g>
 
-"Show me high protein breakfast recipes."
-"How many calories are in boiled eggs?"
-"Find vegetarian recipes."
-"Show foods rich in fiber."
+  <!-- title -->
+  <text x="600" y="118" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="46" font-weight="700" fill="#FFFFFF" text-anchor="middle">AI Recipe &amp; Nutrition Assistant</text>
+  <text x="600" y="160" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" fill="#B0BEC5" text-anchor="middle">Conversational recipe discovery and nutrition analysis, powered by MCP</text>
 
-The AI understands the request, invokes the appropriate MCP tools, retrieves structured information, and returns personalized responses.
+  <!-- bottom accent bar -->
+  <rect x="450" y="190" width="300" height="4" rx="2" fill="url(#leafGrad)"/>
+</svg><svg width="1200" height="260" viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f2027"/>
+      <stop offset="50%" stop-color="#203a43"/>
+      <stop offset="100%" stop-color="#2c5364"/>
+    </linearGradient>
+    <linearGradient id="leafGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8BC34A"/>
+      <stop offset="100%" stop-color="#4CAF50"/>
+    </linearGradient>
+    <linearGradient id="bowlGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFB74D"/>
+      <stop offset="100%" stop-color="#FF9800"/>
+    </linearGradient>
+  </defs>
 
-🚀 Project Highlights
-Built using NitroStack MCP Framework
-Natural Language Recipe Search
-Nutrition Information Lookup
-Category-based Food Search
-AI-powered Recipe Recommendations
-Fast CSV Dataset Processing
-Modular MCP Architecture
-TypeScript Backend
-React Widget Frontend
-Easily Extensible
+  <rect width="1200" height="260" fill="url(#bg)"/>
 
-❗ Problem Statement
+  <!-- decorative circuit dots (AI motif) -->
+  <g opacity="0.25" stroke="#7FDBFF" stroke-width="2">
+    <line x1="40" y1="40" x2="120" y2="40"/>
+    <line x1="120" y1="40" x2="120" y2="90"/>
+    <circle cx="40" cy="40" r="4" fill="#7FDBFF"/>
+    <circle cx="120" cy="90" r="4" fill="#7FDBFF"/>
+    <line x1="1060" y1="200" x2="1140" y2="200"/>
+    <line x1="1060" y1="200" x2="1060" y2="160"/>
+    <circle cx="1140" cy="200" r="4" fill="#7FDBFF"/>
+    <circle cx="1060" cy="160" r="4" fill="#7FDBFF"/>
+  </g>
 
-Finding healthy recipes and understanding nutritional values often requires switching between multiple websites and nutrition databases.
+  <!-- bowl icon -->
+  <g transform="translate(90,90)">
+    <path d="M0,40 Q0,90 55,90 Q110,90 110,40 Z" fill="url(#bowlGrad)"/>
+    <ellipse cx="55" cy="40" rx="55" ry="14" fill="#FFE0B2"/>
+    <circle cx="35" cy="34" r="6" fill="url(#leafGrad)"/>
+    <circle cx="55" cy="30" r="7" fill="#EF5350"/>
+    <circle cx="75" cy="35" r="6" fill="url(#leafGrad)"/>
+  </g>
 
-Users struggle to:
+  <!-- leaf icon -->
+  <g transform="translate(1000,60)">
+    <path d="M0,60 C0,20 40,0 80,0 C80,40 60,70 20,70 C10,70 5,65 0,60 Z" fill="url(#leafGrad)"/>
+    <path d="M5,58 C30,40 55,20 78,3" stroke="#2E7D32" stroke-width="3" fill="none"/>
+  </g>
 
-Search recipes efficiently
-Compare nutritional values
-Find foods based on calories or nutrients
-Discover recipes matching dietary preferences
-Obtain structured nutrition data quickly
+  <!-- title -->
+  <text x="600" y="118" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="46" font-weight="700" fill="#FFFFFF" text-anchor="middle">AI Recipe &amp; Nutrition Assistant</text>
+  <text x="600" y="160" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" fill="#B0BEC5" text-anchor="middle">Conversational recipe discovery and nutrition analysis, powered by MCP</text>
 
-Existing solutions are fragmented and lack conversational AI integration.
-
-💡 Solution
-
-The AI Recipe & Nutrition Assistant solves this by integrating recipe and nutrition datasets into a single AI-powered MCP application.
-
-The system:
-
-Understands natural language queries
-Searches recipe datasets
-Searches nutrition datasets
-Retrieves structured nutritional information
-Returns contextual recommendations
-Makes food discovery conversational
-
-🤖 Agent Workflow
-User Query
-      │
-      ▼
-NitroStack MCP Server
-      │
-      ▼
-AI Agent
-      │
-      ├─────────────┐
-      ▼             ▼
-Recipe Tools    Nutrition Tools
-      │             │
-      ▼             ▼
-Recipe Service  Nutrition Service
-      │             │
-      ▼             ▼
- Recipe CSV     Nutrition CSV
-      │             │
-      └──────┬──────┘
-             ▼
-      Structured Response
-             ▼
-            User
-
-System Architecture
-
-                User
-                  │
-                  ▼
-         AI Conversation Layer
-                  │
-                  ▼
-        NitroStack MCP Server
-                  │
-      ┌───────────┴────────────┐
-      ▼                        ▼
- Recipe Module          Nutrition Module
-      │                        │
-      ▼                        ▼
- Recipe Tools          Nutrition Tools
-      │                        │
-      ▼                        ▼
- Recipe Service       Nutrition Service
-      │                        │
-      ▼                        ▼
- Recipe Dataset       Nutrition Dataset
-                  │
-                  ▼
-          AI Generated Response
-
-  ⭐ Core Features
-🍽 Recipe Management
-Recipe Search
-Ingredient Search
-Recipe Lookup
-Random Recipe Suggestion
-Top Rated Recipes
-Multi-Ingredient Search
-🥗 Nutrition Analysis
-Food Nutrition Lookup
-Calories Information
-Protein Information
-Fat Information
-Carbohydrates Information
-Fiber Information
-Saturated Fat Information
-Food Category Search
-🤖 AI Features
-Natural Language Understanding
-Intelligent Food Recommendations
-Personalized Responses
-Instant Nutrition Analysis
-Dataset Search
-Context-Aware Responses
-
-🛠 MCP Capabilities
-
-The project exposes intelligent tools through the Model Context Protocol (MCP).
-
-Capabilities
-Recipe Discovery
-Nutrition Retrieval
-Ingredient Search
-Food Category Search
-Healthy Food Suggestions
-Structured Dataset Access
-AI Tool Invocation
-
-🔧 MCP Tools
-Recipe Module
-Tool	Description
-search_recipe	Search recipes by name
-search_ingredient	Search recipes using one ingredient
-search_ingredients	Search recipes using multiple ingredients
-get_recipe	Retrieve a recipe by ID
-get_all_recipes	List all recipes
-random_recipe	Get a random recipe
-top_recipes	Retrieve top-rated recipes
-
-Nutrition Module
-Tool	Description
-nutrition_info	Retrieve nutritional information for a food
-search_food	Search food by keyword
-get_all_foods	Retrieve all nutrition records
-foods_by_category	Retrieve foods belonging to a category
-
-MCP Resources
-Recipe Dataset
-
-Contains:
-
-Recipe Name
-Ingredients
-Instructions
-Cuisine
-Preparation Time
-Cooking Time
-Servings
-Nutrition Dataset
-
-Contains:
-
-Food Name
-Measure
-Weight (Grams)
-Calories
-Protein
-Fat
-Saturated Fat
-Fiber
-Carbohydrates
-Food Category
-🧩 Technology Stack
-Backend
-NitroStack MCP Framework
-TypeScript
-Node.js
-Frontend
-React
-NitroStack Widgets
-Data Processing
-CSV Parser
-File System (FS)
-Path Module
-AI Layer
-MCP Tool Calling
-Natural Language Processing
-Context-aware Responses
+  <!-- bottom accent bar -->
+  <rect x="450" y="190" width="300" height="4" rx="2" fill="url(#leafGrad)"/>
+</svg>
