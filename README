@@ -1,17 +1,8 @@
-<div align="center">
 
 # 🍽️ AI Recipe & Nutrition Assistant
-
 ### Intelligent Recipe Recommendation & Nutrition Analysis using NitroStack MCP
-
----
-
 ### 🚀 AI-powered conversational recipe discovery and nutrition analysis using Model Context Protocol (MCP)
-
-</div>
-
----
-
+--------------------------------------------------------------------------------------------------------------------------------------------
 # 📖 Overview
 
 AI Recipe & Nutrition Assistant is an intelligent **Model Context Protocol (MCP)** application built using the **NitroStack MCP Framework**.
@@ -35,7 +26,7 @@ Show foods rich in fiber.
 The AI understands the request, invokes the appropriate MCP tools, retrieves structured information, and returns personalized responses.
 
 ---
-
+------------------------------------------------------------------------------------------------------------------------------------------
 # ✨ Project Highlights
 
 - 🍽️ Natural Language Recipe Search
@@ -51,7 +42,7 @@ The AI understands the request, invokes the appropriate MCP tools, retrieves str
 - 🔌 Easily Extensible
 
 ---
-
+--------------------------------------------------------------------------------------------------------------------------------------
 # ❗ Problem Statement
 
 Finding healthy recipes and understanding nutritional values often requires switching between multiple websites and nutrition databases.
@@ -66,7 +57,7 @@ Users struggle to:
 - Discover recipes matching dietary preferences
 - Access structured nutrition information quickly
 
----
+-----------------------------------------------------------------------------------------------------------------------------------
 
 # 💡 Solution
 
@@ -81,7 +72,7 @@ The system:
 - Generates contextual recommendations
 - Makes food discovery conversational
 
----
+------------------------------------------------------------------------------------------------------------------------------------
 
 # 🤖 Agent Workflow
 
@@ -110,7 +101,7 @@ The system:
                   ▼
                 User
 ```
-
+--------------------------------------------------------------------------------------------------------------------------------------
 ---
 
 # 🏗️ System Architecture
@@ -141,7 +132,7 @@ The system:
           AI Generated Response
 ```
 
----
+----------------------------------------------------------------------------------------------------------------------
 
 # ⭐ Core Features
 
@@ -154,7 +145,7 @@ The system:
 - Random recipe suggestions
 - Top-rated recipe recommendations
 
----
+------------------------------------------------------------------------------------------------------------------
 
 ## 🥗 Nutrition Analysis
 
@@ -167,7 +158,7 @@ The system:
 - Fiber analysis
 - Food category search
 
----
+------------------------------------------------------------------------------------------------------------------
 
 ## 🤖 AI Features
 
@@ -177,50 +168,50 @@ The system:
 - Intelligent Dataset Search
 - Instant Nutrition Analysis
 
----
+-------------------------------------------------------------------------------------------------------------------
 
 # 🔧 MCP Capabilities
 
 The application exposes intelligent tools through the **Model Context Protocol (MCP)**.
 
-| Capability | Description |
-|------------|-------------|
-| 🍽️ Recipe Discovery | Search recipes |
-| 🥗 Nutrition Retrieval | Nutrition lookup |
-| 🧂 Ingredient Search | Find recipes using ingredients |
-| 🥬 Food Category Search | Browse food categories |
-| ❤️ Healthy Food Suggestions | AI-powered recommendations |
-| 📂 Structured Dataset Access | Retrieve CSV data |
-| 🤖 MCP Tool Invocation | Automatic AI tool calling |
+| Capability                    | Description                    |
+|------------------------------ |------------------------------- |
+| 🍽️ Recipe Discovery          | Search recipes                 |
+| 🥗 Nutrition Retrieval       | Nutrition lookup               |
+| 🧂 Ingredient Search         | Find recipes using ingredients |
+| 🥬 Food Category Search      | Browse food categories         |
+| ❤️ Healthy Food Suggestions  | AI-powered recommendations     |
+| 📂 Structured Dataset Access | Retrieve CSV data              |
+| 🤖 MCP Tool Invocation       | Automatic AI tool calling      |
 
----
+------------------------------------------------------------------------------------------------------------------
 
 # 🛠️ MCP Tools
 
 ## 🍽️ Recipe Module
 
-| Tool | Description |
-|------|-------------|
-| `search_recipe` | Search recipes by name |
-| `search_ingredient` | Search recipes using one ingredient |
+| Tool                 | Description                               |
+|----------------------|-------------------------------------------|
+| `search_recipe`      | Search recipes by name                    |
+| `search_ingredient`  | Search recipes using one ingredient       |
 | `search_ingredients` | Search recipes using multiple ingredients |
-| `get_recipe` | Retrieve a recipe by ID |
-| `get_all_recipes` | List all recipes |
-| `random_recipe` | Retrieve a random recipe |
-| `top_recipes` | Retrieve top-rated recipes |
+| `get_recipe`         | Retrieve a recipe by ID                   |
+| `get_all_recipes`    | List all recipes                          |
+| `random_recipe`      | Retrieve a random recipe                  |
+| `top_recipes`        | Retrieve top-rated recipes                |
 
----
+------------------------------------------------------------------------------------------------------------
 
 ## 🥗 Nutrition Module
 
-| Tool | Description |
-|------|-------------|
-| `nutrition_info` | Retrieve nutritional information |
-| `search_food` | Search foods by keyword |
-| `get_all_foods` | Retrieve all food records |
-| `foods_by_category` | Retrieve foods by category |
+| Tool                | Description                      |
+|---------------------|----------------------------------|
+| `nutrition_info`    | Retrieve nutritional information |
+| `search_food`       | Search foods by keyword          |
+| `get_all_foods`     | Retrieve all food records        |
+| `foods_by_category` | Retrieve foods by category       |
 
----
+--------------------------------------------------------------------------------------------------------------
 
 # 📂 MCP Resources
 
@@ -355,11 +346,3 @@ Contributions are welcome.
 This project is licensed under the **MIT License**.
 
 ---
-
-<div align="center">
-
-### ⭐ If you found this project helpful, please consider giving it a Star!
-
-Made with ❤️ using **NitroStack MCP**
-
-</div>
